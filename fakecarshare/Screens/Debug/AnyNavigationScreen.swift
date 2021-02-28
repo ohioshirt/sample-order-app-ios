@@ -79,28 +79,28 @@ struct AnyNavigationSceen: View {
     
     var reservationSection: some View {
         Section(header: Text("reservation")) {
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: SelectStartStationScreen()) {
                 Text("SelectStartStation")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: SelectEndStationScreen()) {
                 Text("SelectEndStation")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: MapForStationScreen()) {
                 Text("MapForStation")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: StatiorSearchResultScreen()) {
                 Text("StatiorSearchResult")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: ConfirmReservationScreen()) {
                 Text("ConfirmReservation")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: ChangeReservationScreen()) {
                 Text("ChangeReservation")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: ReservationListScreen()) {
                 Text("ReservationList")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: ReservationDetailScreen()) {
                 Text("ReservationDetail")
             }
         }
