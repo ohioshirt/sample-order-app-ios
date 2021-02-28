@@ -203,10 +203,10 @@
 		8DAF175725EBDAA6001BB900 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				8DAF175825EBDAB9001BB900 /* LoginIdScreen.swift */,
-				8DAF175D25EBDB39001BB900 /* ChangePasswordScreen.swift */,
 				8DAF176225EBDB7C001BB900 /* AuthSmsForChangeLoginIdScreen.swift */,
 				8DAF176725EBDBB0001BB900 /* AuthSmsForChangePasswordScreen.swift */,
+				8DAF175D25EBDB39001BB900 /* ChangePasswordScreen.swift */,
+				8DAF175825EBDAB9001BB900 /* LoginIdScreen.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
