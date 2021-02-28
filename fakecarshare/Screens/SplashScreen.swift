@@ -10,7 +10,7 @@ import SwiftUI
 struct SplashScreen: View {
     var body: some View {
         NavigationView {
-            Text("Splash")
+            Text("Splash?")
         }
     }
 }
