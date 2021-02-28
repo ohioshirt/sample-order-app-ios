@@ -11,7 +11,7 @@ import SwiftUI
 struct fakecarshareApp: App {
     var body: some Scene {
         WindowGroup {
-            SplashScreen    ()
+            AnyNavigationSceen()
         }
     }
 }
