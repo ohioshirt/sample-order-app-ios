@@ -11,8 +11,8 @@
 		8DAF16F025EB307C001BB900 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF16EF25EB307C001BB900 /* ContentView.swift */; };
 		8DAF16F225EB307D001BB900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DAF16F125EB307D001BB900 /* Assets.xcassets */; };
 		8DAF16F525EB307D001BB900 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DAF16F425EB307D001BB900 /* Preview Assets.xcassets */; };
-		8DAF170025EB307D001BB900 /* fakecarshareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF16FF25EB307D001BB900 /* fakecarshareTests.swift */; };
-		8DAF170B25EB307D001BB900 /* fakecarshareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF170A25EB307D001BB900 /* fakecarshareUITests.swift */; };
+		8DAF170025EB307D001BB900 /* sampleOrderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF16FF25EB307D001BB900 /* sampleOrderAppTests.swift */; };
+		8DAF170B25EB307D001BB900 /* sampleOrderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF170A25EB307D001BB900 /* sampleOrderAppUITests.swift */; };
 		8DAF172225EB312B001BB900 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF172125EB312B001BB900 /* SplashScreen.swift */; };
 		8DAF173425EB3E71001BB900 /* AnyNavigationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF173325EB3E71001BB900 /* AnyNavigationScreen.swift */; };
 		8DAF173F25EB62C5001BB900 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF173E25EB62C5001BB900 /* LoginScreen.swift */; };
@@ -59,10 +59,10 @@
 		8DAF16F425EB307D001BB900 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8DAF16F625EB307D001BB900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DAF16FB25EB307D001BB900 /* sampleOrderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleOrderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DAF16FF25EB307D001BB900 /* fakecarshareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fakecarshareTests.swift; sourceTree = "<group>"; };
+		8DAF16FF25EB307D001BB900 /* sampleOrderAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleOrderAppTests.swift; sourceTree = "<group>"; };
 		8DAF170125EB307D001BB900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DAF170625EB307D001BB900 /* sampleOrderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleOrderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DAF170A25EB307D001BB900 /* fakecarshareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fakecarshareUITests.swift; sourceTree = "<group>"; };
+		8DAF170A25EB307D001BB900 /* sampleOrderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleOrderAppUITests.swift; sourceTree = "<group>"; };
 		8DAF170C25EB307D001BB900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DAF172125EB312B001BB900 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		8DAF173325EB3E71001BB900 /* AnyNavigationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyNavigationScreen.swift; sourceTree = "<group>"; };
@@ -113,9 +113,9 @@
 		8DAF16E125EB307C001BB900 = {
 			isa = PBXGroup;
 			children = (
-				8DAF16EC25EB307C001BB900 /* fakeOrderApp */,
-				8DAF16FE25EB307D001BB900 /* fakeOrderAppTests */,
-				8DAF170925EB307D001BB900 /* fakeOrderAppUITests */,
+				8DAF16EC25EB307C001BB900 /* sampleOrderApp */,
+				8DAF16FE25EB307D001BB900 /* sampleOrderAppTests */,
+				8DAF170925EB307D001BB900 /* sampleOrderAppUITests */,
 				8DAF16EB25EB307C001BB900 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,7 +130,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8DAF16EC25EB307C001BB900 /* fakeOrderApp */ = {
+		8DAF16EC25EB307C001BB900 /* sampleOrderApp */ = {
 			isa = PBXGroup;
 			children = (
 				8DAF171C25EB30A4001BB900 /* Screens */,
@@ -140,7 +140,7 @@
 				8DAF16F625EB307D001BB900 /* Info.plist */,
 				8DAF16F325EB307D001BB900 /* Preview Content */,
 			);
-			path = fakeOrderApp;
+			path = sampleOrderApp;
 			sourceTree = "<group>";
 		};
 		8DAF16F325EB307D001BB900 /* Preview Content */ = {
@@ -151,22 +151,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8DAF16FE25EB307D001BB900 /* fakeOrderAppTests */ = {
+		8DAF16FE25EB307D001BB900 /* sampleOrderAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				8DAF16FF25EB307D001BB900 /* fakecarshareTests.swift */,
+				8DAF16FF25EB307D001BB900 /* sampleOrderAppTests.swift */,
 				8DAF170125EB307D001BB900 /* Info.plist */,
 			);
-			path = fakeOrderAppTests;
+			path = sampleOrderAppTests;
 			sourceTree = "<group>";
 		};
-		8DAF170925EB307D001BB900 /* fakeOrderAppUITests */ = {
+		8DAF170925EB307D001BB900 /* sampleOrderAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8DAF170A25EB307D001BB900 /* fakecarshareUITests.swift */,
+				8DAF170A25EB307D001BB900 /* sampleOrderAppUITests.swift */,
 				8DAF170C25EB307D001BB900 /* Info.plist */,
 			);
-			path = fakeOrderAppUITests;
+			path = sampleOrderAppUITests;
 			sourceTree = "<group>";
 		};
 		8DAF171C25EB30A4001BB900 /* Screens */ = {
@@ -392,7 +392,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DAF170025EB307D001BB900 /* fakecarshareTests.swift in Sources */,
+				8DAF170025EB307D001BB900 /* sampleOrderAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,7 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DAF170B25EB307D001BB900 /* fakecarshareUITests.swift in Sources */,
+				8DAF170B25EB307D001BB900 /* sampleOrderAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,15 +542,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"fakeOrderApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"sampleOrderApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = fakeOrderApp/Info.plist;
+				INFOPLIST_FILE = sampleOrderApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.fake-orderapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sample.orderapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -563,15 +563,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"fakeOrderApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"sampleOrderApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = fakeOrderApp/Info.plist;
+				INFOPLIST_FILE = sampleOrderApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.fake-orderapp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sample.orderapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -582,16 +582,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = fakecarshareTests/Info.plist;
+				INFOPLIST_FILE = sampleOrderAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.fakecarshareTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleorderappTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -603,16 +602,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = fakecarshareTests/Info.plist;
+				INFOPLIST_FILE = sampleOrderAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.fakecarshareTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleorderappTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -625,17 +623,18 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = fakecarshareUITests/Info.plist;
+				INFOPLIST_FILE = sampleOrderAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.fakecarshareUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleorderappUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = fakecarshare;
+				TEST_TARGET_NAME = sampleOrderApp;
 			};
 			name = Debug;
 		};
@@ -644,17 +643,18 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = fakecarshareUITests/Info.plist;
+				INFOPLIST_FILE = sampleOrderAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.fakecarshareUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleorderappUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = fakecarshare;
+				TEST_TARGET_NAME = sampleOrderApp;
 			};
 			name = Release;
 		};
