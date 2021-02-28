@@ -34,16 +34,16 @@ struct AnyNavigationSceen: View {
     var loginSection: some View {
         Section(header: Text("login")) {
             // 戻るべきでなさそうな画面
-            NavigationLink(destination: SplashScreen().navigationBarHidden(true)) {
+            NavigationLink(destination: LoginScreen().navigationBarHidden(true)) {
                 Text("Login")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: AuthSmsScreen()) {
                 Text("AuthSms")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: RequestPasswordScreen(inFlow: .constant(true))) {
                 Text("ForgetPassword")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: ResetPasswordScreen(inFlow: .constant(true))) {
                 Text("ResetPassword")
             }
             NavigationLink(destination: SplashScreen()) {
