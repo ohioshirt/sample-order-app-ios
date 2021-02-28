@@ -65,7 +65,7 @@ struct AnyNavigationSceen: View {
             NavigationLink(destination: LoginIdScreen()) {
                 Text("LoginId")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: ChangePasswordScreen()) {
                 Text("ChangePassword")
             }
             NavigationLink(destination: SplashScreen()) {

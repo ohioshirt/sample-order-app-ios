@@ -21,6 +21,7 @@
 		8DAF174E25EBBA13001BB900 /* ResetPasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF174D25EBBA13001BB900 /* ResetPasswordScreen.swift */; };
 		8DAF175325EBC1AB001BB900 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF175225EBC1AB001BB900 /* HomeScreen.swift */; };
 		8DAF175925EBDAB9001BB900 /* LoginIdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF175825EBDAB9001BB900 /* LoginIdScreen.swift */; };
+		8DAF175E25EBDB39001BB900 /* ChangePasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF175D25EBDB39001BB900 /* ChangePasswordScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		8DAF174D25EBBA13001BB900 /* ResetPasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordScreen.swift; sourceTree = "<group>"; };
 		8DAF175225EBC1AB001BB900 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		8DAF175825EBDAB9001BB900 /* LoginIdScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginIdScreen.swift; sourceTree = "<group>"; };
+		8DAF175D25EBDB39001BB900 /* ChangePasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				8DAF175825EBDAB9001BB900 /* LoginIdScreen.swift */,
+				8DAF175D25EBDB39001BB900 /* ChangePasswordScreen.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 				8DAF175325EBC1AB001BB900 /* HomeScreen.swift in Sources */,
 				8DAF16EE25EB307C001BB900 /* fakecarshareApp.swift in Sources */,
 				8DAF173F25EB62C5001BB900 /* LoginScreen.swift in Sources */,
+				8DAF175E25EBDB39001BB900 /* ChangePasswordScreen.swift in Sources */,
 				8DAF174425EB6CFC001BB900 /* AuthSmsScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
