@@ -52,16 +52,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8DAF16EA25EB307C001BB900 /* fakecarshare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fakecarshare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAF16EA25EB307C001BB900 /* fakeOrderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fakeOrderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DAF16ED25EB307C001BB900 /* fakecarshareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fakecarshareApp.swift; sourceTree = "<group>"; };
 		8DAF16EF25EB307C001BB900 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8DAF16F125EB307D001BB900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DAF16F425EB307D001BB900 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8DAF16F625EB307D001BB900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DAF16FB25EB307D001BB900 /* fakecarshareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fakecarshareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAF16FB25EB307D001BB900 /* fakeOrderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fakeOrderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DAF16FF25EB307D001BB900 /* fakecarshareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fakecarshareTests.swift; sourceTree = "<group>"; };
 		8DAF170125EB307D001BB900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DAF170625EB307D001BB900 /* fakecarshareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fakecarshareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAF170625EB307D001BB900 /* fakeOrderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fakeOrderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DAF170A25EB307D001BB900 /* fakecarshareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fakecarshareUITests.swift; sourceTree = "<group>"; };
 		8DAF170C25EB307D001BB900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DAF172125EB312B001BB900 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
@@ -123,9 +123,9 @@
 		8DAF16EB25EB307C001BB900 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8DAF16EA25EB307C001BB900 /* fakecarshare.app */,
-				8DAF16FB25EB307D001BB900 /* fakecarshareTests.xctest */,
-				8DAF170625EB307D001BB900 /* fakecarshareUITests.xctest */,
+				8DAF16EA25EB307C001BB900 /* fakeOrderApp.app */,
+				8DAF16FB25EB307D001BB900 /* fakeOrderAppTests.xctest */,
+				8DAF170625EB307D001BB900 /* fakeOrderAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -238,9 +238,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8DAF16E925EB307C001BB900 /* fakecarshare */ = {
+		8DAF16E925EB307C001BB900 /* fakeOrderApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DAF170F25EB307D001BB900 /* Build configuration list for PBXNativeTarget "fakecarshare" */;
+			buildConfigurationList = 8DAF170F25EB307D001BB900 /* Build configuration list for PBXNativeTarget "fakeOrderApp" */;
 			buildPhases = (
 				8DAF16E625EB307C001BB900 /* Sources */,
 				8DAF16E725EB307C001BB900 /* Frameworks */,
@@ -250,14 +250,14 @@
 			);
 			dependencies = (
 			);
-			name = fakecarshare;
+			name = fakeOrderApp;
 			productName = fakecarshare;
-			productReference = 8DAF16EA25EB307C001BB900 /* fakecarshare.app */;
+			productReference = 8DAF16EA25EB307C001BB900 /* fakeOrderApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8DAF16FA25EB307D001BB900 /* fakecarshareTests */ = {
+		8DAF16FA25EB307D001BB900 /* fakeOrderAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DAF171225EB307D001BB900 /* Build configuration list for PBXNativeTarget "fakecarshareTests" */;
+			buildConfigurationList = 8DAF171225EB307D001BB900 /* Build configuration list for PBXNativeTarget "fakeOrderAppTests" */;
 			buildPhases = (
 				8DAF16F725EB307D001BB900 /* Sources */,
 				8DAF16F825EB307D001BB900 /* Frameworks */,
@@ -268,14 +268,14 @@
 			dependencies = (
 				8DAF16FD25EB307D001BB900 /* PBXTargetDependency */,
 			);
-			name = fakecarshareTests;
+			name = fakeOrderAppTests;
 			productName = fakecarshareTests;
-			productReference = 8DAF16FB25EB307D001BB900 /* fakecarshareTests.xctest */;
+			productReference = 8DAF16FB25EB307D001BB900 /* fakeOrderAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8DAF170525EB307D001BB900 /* fakecarshareUITests */ = {
+		8DAF170525EB307D001BB900 /* fakeOrderAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DAF171525EB307D001BB900 /* Build configuration list for PBXNativeTarget "fakecarshareUITests" */;
+			buildConfigurationList = 8DAF171525EB307D001BB900 /* Build configuration list for PBXNativeTarget "fakeOrderAppUITests" */;
 			buildPhases = (
 				8DAF170225EB307D001BB900 /* Sources */,
 				8DAF170325EB307D001BB900 /* Frameworks */,
@@ -286,9 +286,9 @@
 			dependencies = (
 				8DAF170825EB307D001BB900 /* PBXTargetDependency */,
 			);
-			name = fakecarshareUITests;
+			name = fakeOrderAppUITests;
 			productName = fakecarshareUITests;
-			productReference = 8DAF170625EB307D001BB900 /* fakecarshareUITests.xctest */;
+			productReference = 8DAF170625EB307D001BB900 /* fakeOrderAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -313,7 +313,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8DAF16E525EB307C001BB900 /* Build configuration list for PBXProject "fakecarshare" */;
+			buildConfigurationList = 8DAF16E525EB307C001BB900 /* Build configuration list for PBXProject "fakeOrderApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -326,9 +326,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8DAF16E925EB307C001BB900 /* fakecarshare */,
-				8DAF16FA25EB307D001BB900 /* fakecarshareTests */,
-				8DAF170525EB307D001BB900 /* fakecarshareUITests */,
+				8DAF16E925EB307C001BB900 /* fakeOrderApp */,
+				8DAF16FA25EB307D001BB900 /* fakeOrderAppTests */,
+				8DAF170525EB307D001BB900 /* fakeOrderAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -409,12 +409,12 @@
 /* Begin PBXTargetDependency section */
 		8DAF16FD25EB307D001BB900 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8DAF16E925EB307C001BB900 /* fakecarshare */;
+			target = 8DAF16E925EB307C001BB900 /* fakeOrderApp */;
 			targetProxy = 8DAF16FC25EB307D001BB900 /* PBXContainerItemProxy */;
 		};
 		8DAF170825EB307D001BB900 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8DAF16E925EB307C001BB900 /* fakecarshare */;
+			target = 8DAF16E925EB307C001BB900 /* fakeOrderApp */;
 			targetProxy = 8DAF170725EB307D001BB900 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -471,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -526,7 +526,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -550,7 +550,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.fakecarshare;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.fake-orderapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -571,7 +571,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.fakecarshare;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.fake-orderapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -595,7 +595,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fakecarshare.app/fakecarshare";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fakeOrderApp.app/fakeOrderApp";
 			};
 			name = Debug;
 		};
@@ -616,7 +616,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fakecarshare.app/fakecarshare";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fakeOrderApp.app/fakeOrderApp";
 			};
 			name = Release;
 		};
@@ -661,7 +661,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8DAF16E525EB307C001BB900 /* Build configuration list for PBXProject "fakecarshare" */ = {
+		8DAF16E525EB307C001BB900 /* Build configuration list for PBXProject "fakeOrderApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DAF170D25EB307D001BB900 /* Debug */,
@@ -670,7 +670,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DAF170F25EB307D001BB900 /* Build configuration list for PBXNativeTarget "fakecarshare" */ = {
+		8DAF170F25EB307D001BB900 /* Build configuration list for PBXNativeTarget "fakeOrderApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DAF171025EB307D001BB900 /* Debug */,
@@ -679,7 +679,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DAF171225EB307D001BB900 /* Build configuration list for PBXNativeTarget "fakecarshareTests" */ = {
+		8DAF171225EB307D001BB900 /* Build configuration list for PBXNativeTarget "fakeOrderAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DAF171325EB307D001BB900 /* Debug */,
@@ -688,7 +688,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DAF171525EB307D001BB900 /* Build configuration list for PBXNativeTarget "fakecarshareUITests" */ = {
+		8DAF171525EB307D001BB900 /* Build configuration list for PBXNativeTarget "fakeOrderAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DAF171625EB307D001BB900 /* Debug */,
