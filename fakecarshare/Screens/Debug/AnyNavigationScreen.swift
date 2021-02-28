@@ -71,7 +71,7 @@ struct AnyNavigationSceen: View {
             NavigationLink(destination: AuthSmsForChangeLoginIdScreen()) {
                 Text("AuthSmsForChangeLoginId")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: AuthSmsForChangePasswordScreen()) {
                 Text("AuthSmsForChangePassword")
             }
         }
