@@ -34,16 +34,16 @@ struct AnyNavigationSceen: View {
     var loginSection: some View {
         Section(header: Text("login")) {
             // 戻るべきでなさそうな画面
-            NavigationLink(destination: SplashScreen().navigationBarHidden(true)) {
+            NavigationLink(destination: LoginScreen().navigationBarHidden(true)) {
                 Text("Login")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: AuthSmsScreen()) {
                 Text("AuthSms")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: RequestPasswordScreen(inFlow: .constant(true))) {
                 Text("ForgetPassword")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: ResetPasswordScreen(inFlow: .constant(true))) {
                 Text("ResetPassword")
             }
             NavigationLink(destination: SplashScreen()) {
@@ -54,7 +54,7 @@ struct AnyNavigationSceen: View {
     
     var homeSection: some View {
         Section(header: Text("Home")) {
-            NavigationLink(destination: SplashScreen().navigationBarHidden(true)) {
+            NavigationLink(destination: HomeScreen()) {
                 Text("Home")
             }
         }
@@ -62,16 +62,16 @@ struct AnyNavigationSceen: View {
     
     var settingSection: some View {
         Section(header: Text("setting")) {
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: LoginIdScreen()) {
                 Text("LoginId")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: ChangePasswordScreen()) {
                 Text("ChangePassword")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: AuthSmsForChangeLoginIdScreen()) {
                 Text("AuthSmsForChangeLoginId")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: AuthSmsForChangePasswordScreen()) {
                 Text("AuthSmsForChangePassword")
             }
         }
@@ -79,28 +79,28 @@ struct AnyNavigationSceen: View {
     
     var reservationSection: some View {
         Section(header: Text("reservation")) {
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: SelectStartStationScreen()) {
                 Text("SelectStartStation")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: SelectEndStationScreen()) {
                 Text("SelectEndStation")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: MapForStationScreen()) {
                 Text("MapForStation")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: StatiorSearchResultScreen()) {
                 Text("StatiorSearchResult")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: ConfirmReservationScreen()) {
                 Text("ConfirmReservation")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: ChangeReservationScreen()) {
                 Text("ChangeReservation")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: ReservationListScreen()) {
                 Text("ReservationList")
             }
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: ReservationDetailScreen()) {
                 Text("ReservationDetail")
             }
         }

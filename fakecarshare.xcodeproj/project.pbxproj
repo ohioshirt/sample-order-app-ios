@@ -15,6 +15,23 @@
 		8DAF170B25EB307D001BB900 /* fakecarshareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF170A25EB307D001BB900 /* fakecarshareUITests.swift */; };
 		8DAF172225EB312B001BB900 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF172125EB312B001BB900 /* SplashScreen.swift */; };
 		8DAF173425EB3E71001BB900 /* AnyNavigationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF173325EB3E71001BB900 /* AnyNavigationScreen.swift */; };
+		8DAF173F25EB62C5001BB900 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF173E25EB62C5001BB900 /* LoginScreen.swift */; };
+		8DAF174425EB6CFC001BB900 /* AuthSmsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF174325EB6CFC001BB900 /* AuthSmsScreen.swift */; };
+		8DAF174925EBB71D001BB900 /* RequestPasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF174825EBB71D001BB900 /* RequestPasswordScreen.swift */; };
+		8DAF174E25EBBA13001BB900 /* ResetPasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF174D25EBBA13001BB900 /* ResetPasswordScreen.swift */; };
+		8DAF175325EBC1AB001BB900 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF175225EBC1AB001BB900 /* HomeScreen.swift */; };
+		8DAF175925EBDAB9001BB900 /* LoginIdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF175825EBDAB9001BB900 /* LoginIdScreen.swift */; };
+		8DAF175E25EBDB39001BB900 /* ChangePasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF175D25EBDB39001BB900 /* ChangePasswordScreen.swift */; };
+		8DAF176325EBDB7C001BB900 /* AuthSmsForChangeLoginIdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF176225EBDB7C001BB900 /* AuthSmsForChangeLoginIdScreen.swift */; };
+		8DAF176825EBDBB0001BB900 /* AuthSmsForChangePasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF176725EBDBB0001BB900 /* AuthSmsForChangePasswordScreen.swift */; };
+		8DAF176D25EBDC05001BB900 /* SelectStartStationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF176C25EBDC05001BB900 /* SelectStartStationScreen.swift */; };
+		8DAF177225EBDC3A001BB900 /* SelectEndStationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF177125EBDC3A001BB900 /* SelectEndStationScreen.swift */; };
+		8DAF177725EBDC64001BB900 /* MapForStationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF177625EBDC64001BB900 /* MapForStationScreen.swift */; };
+		8DAF177C25EBDC84001BB900 /* StatiorSearchResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF177B25EBDC84001BB900 /* StatiorSearchResultScreen.swift */; };
+		8DAF178125EBDCA4001BB900 /* ConfirmReservationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF178025EBDCA4001BB900 /* ConfirmReservationScreen.swift */; };
+		8DAF178625EBDCC6001BB900 /* ChangeReservationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF178525EBDCC6001BB900 /* ChangeReservationScreen.swift */; };
+		8DAF178B25EBDCEA001BB900 /* ReservationListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF178A25EBDCEA001BB900 /* ReservationListScreen.swift */; };
+		8DAF179025EBDD0B001BB900 /* ReservationDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF178F25EBDD0B001BB900 /* ReservationDetailScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +66,23 @@
 		8DAF170C25EB307D001BB900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DAF172125EB312B001BB900 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		8DAF173325EB3E71001BB900 /* AnyNavigationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyNavigationScreen.swift; sourceTree = "<group>"; };
+		8DAF173E25EB62C5001BB900 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		8DAF174325EB6CFC001BB900 /* AuthSmsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSmsScreen.swift; sourceTree = "<group>"; };
+		8DAF174825EBB71D001BB900 /* RequestPasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestPasswordScreen.swift; sourceTree = "<group>"; };
+		8DAF174D25EBBA13001BB900 /* ResetPasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordScreen.swift; sourceTree = "<group>"; };
+		8DAF175225EBC1AB001BB900 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		8DAF175825EBDAB9001BB900 /* LoginIdScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginIdScreen.swift; sourceTree = "<group>"; };
+		8DAF175D25EBDB39001BB900 /* ChangePasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordScreen.swift; sourceTree = "<group>"; };
+		8DAF176225EBDB7C001BB900 /* AuthSmsForChangeLoginIdScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSmsForChangeLoginIdScreen.swift; sourceTree = "<group>"; };
+		8DAF176725EBDBB0001BB900 /* AuthSmsForChangePasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSmsForChangePasswordScreen.swift; sourceTree = "<group>"; };
+		8DAF176C25EBDC05001BB900 /* SelectStartStationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectStartStationScreen.swift; sourceTree = "<group>"; };
+		8DAF177125EBDC3A001BB900 /* SelectEndStationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectEndStationScreen.swift; sourceTree = "<group>"; };
+		8DAF177625EBDC64001BB900 /* MapForStationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapForStationScreen.swift; sourceTree = "<group>"; };
+		8DAF177B25EBDC84001BB900 /* StatiorSearchResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatiorSearchResultScreen.swift; sourceTree = "<group>"; };
+		8DAF178025EBDCA4001BB900 /* ConfirmReservationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmReservationScreen.swift; sourceTree = "<group>"; };
+		8DAF178525EBDCC6001BB900 /* ChangeReservationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeReservationScreen.swift; sourceTree = "<group>"; };
+		8DAF178A25EBDCEA001BB900 /* ReservationListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationListScreen.swift; sourceTree = "<group>"; };
+		8DAF178F25EBDD0B001BB900 /* ReservationDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDetailScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +176,7 @@
 				8DAF171E25EB30BC001BB900 /* Home */,
 				8DAF171D25EB30AB001BB900 /* Login */,
 				8DAF171F25EB30C2001BB900 /* Reservation */,
-				8DAF172025EB30D0001BB900 /* Setting */,
+				8DAF175725EBDAA6001BB900 /* Settings */,
 				8DAF172125EB312B001BB900 /* SplashScreen.swift */,
 			);
 			path = Screens;
@@ -151,6 +185,10 @@
 		8DAF171D25EB30AB001BB900 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				8DAF173E25EB62C5001BB900 /* LoginScreen.swift */,
+				8DAF174325EB6CFC001BB900 /* AuthSmsScreen.swift */,
+				8DAF174825EBB71D001BB900 /* RequestPasswordScreen.swift */,
+				8DAF174D25EBBA13001BB900 /* ResetPasswordScreen.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -158,6 +196,7 @@
 		8DAF171E25EB30BC001BB900 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				8DAF175225EBC1AB001BB900 /* HomeScreen.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -165,15 +204,16 @@
 		8DAF171F25EB30C2001BB900 /* Reservation */ = {
 			isa = PBXGroup;
 			children = (
+				8DAF178525EBDCC6001BB900 /* ChangeReservationScreen.swift */,
+				8DAF178025EBDCA4001BB900 /* ConfirmReservationScreen.swift */,
+				8DAF177625EBDC64001BB900 /* MapForStationScreen.swift */,
+				8DAF178F25EBDD0B001BB900 /* ReservationDetailScreen.swift */,
+				8DAF178A25EBDCEA001BB900 /* ReservationListScreen.swift */,
+				8DAF177125EBDC3A001BB900 /* SelectEndStationScreen.swift */,
+				8DAF176C25EBDC05001BB900 /* SelectStartStationScreen.swift */,
+				8DAF177B25EBDC84001BB900 /* StatiorSearchResultScreen.swift */,
 			);
 			path = Reservation;
-			sourceTree = "<group>";
-		};
-		8DAF172025EB30D0001BB900 /* Setting */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Setting;
 			sourceTree = "<group>";
 		};
 		8DAF173225EB3E51001BB900 /* Debug */ = {
@@ -182,6 +222,17 @@
 				8DAF173325EB3E71001BB900 /* AnyNavigationScreen.swift */,
 			);
 			path = Debug;
+			sourceTree = "<group>";
+		};
+		8DAF175725EBDAA6001BB900 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8DAF176225EBDB7C001BB900 /* AuthSmsForChangeLoginIdScreen.swift */,
+				8DAF176725EBDBB0001BB900 /* AuthSmsForChangePasswordScreen.swift */,
+				8DAF175D25EBDB39001BB900 /* ChangePasswordScreen.swift */,
+				8DAF175825EBDAB9001BB900 /* LoginIdScreen.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,10 +364,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DAF179025EBDD0B001BB900 /* ReservationDetailScreen.swift in Sources */,
+				8DAF175925EBDAB9001BB900 /* LoginIdScreen.swift in Sources */,
+				8DAF176825EBDBB0001BB900 /* AuthSmsForChangePasswordScreen.swift in Sources */,
 				8DAF173425EB3E71001BB900 /* AnyNavigationScreen.swift in Sources */,
+				8DAF178125EBDCA4001BB900 /* ConfirmReservationScreen.swift in Sources */,
+				8DAF174925EBB71D001BB900 /* RequestPasswordScreen.swift in Sources */,
+				8DAF174E25EBBA13001BB900 /* ResetPasswordScreen.swift in Sources */,
+				8DAF177225EBDC3A001BB900 /* SelectEndStationScreen.swift in Sources */,
+				8DAF178625EBDCC6001BB900 /* ChangeReservationScreen.swift in Sources */,
 				8DAF172225EB312B001BB900 /* SplashScreen.swift in Sources */,
 				8DAF16F025EB307C001BB900 /* ContentView.swift in Sources */,
+				8DAF177C25EBDC84001BB900 /* StatiorSearchResultScreen.swift in Sources */,
+				8DAF175325EBC1AB001BB900 /* HomeScreen.swift in Sources */,
 				8DAF16EE25EB307C001BB900 /* fakecarshareApp.swift in Sources */,
+				8DAF176D25EBDC05001BB900 /* SelectStartStationScreen.swift in Sources */,
+				8DAF177725EBDC64001BB900 /* MapForStationScreen.swift in Sources */,
+				8DAF173F25EB62C5001BB900 /* LoginScreen.swift in Sources */,
+				8DAF178B25EBDCEA001BB900 /* ReservationListScreen.swift in Sources */,
+				8DAF175E25EBDB39001BB900 /* ChangePasswordScreen.swift in Sources */,
+				8DAF176325EBDB7C001BB900 /* AuthSmsForChangeLoginIdScreen.swift in Sources */,
+				8DAF174425EB6CFC001BB900 /* AuthSmsScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
