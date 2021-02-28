@@ -62,7 +62,7 @@ struct AnyNavigationSceen: View {
     
     var settingSection: some View {
         Section(header: Text("setting")) {
-            NavigationLink(destination: SplashScreen()) {
+            NavigationLink(destination: LoginIdScreen()) {
                 Text("LoginId")
             }
             NavigationLink(destination: SplashScreen()) {

@@ -20,6 +20,7 @@
 		8DAF174925EBB71D001BB900 /* RequestPasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF174825EBB71D001BB900 /* RequestPasswordScreen.swift */; };
 		8DAF174E25EBBA13001BB900 /* ResetPasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF174D25EBBA13001BB900 /* ResetPasswordScreen.swift */; };
 		8DAF175325EBC1AB001BB900 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF175225EBC1AB001BB900 /* HomeScreen.swift */; };
+		8DAF175925EBDAB9001BB900 /* LoginIdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF175825EBDAB9001BB900 /* LoginIdScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		8DAF174825EBB71D001BB900 /* RequestPasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestPasswordScreen.swift; sourceTree = "<group>"; };
 		8DAF174D25EBBA13001BB900 /* ResetPasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordScreen.swift; sourceTree = "<group>"; };
 		8DAF175225EBC1AB001BB900 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		8DAF175825EBDAB9001BB900 /* LoginIdScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginIdScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +154,7 @@
 				8DAF171E25EB30BC001BB900 /* Home */,
 				8DAF171D25EB30AB001BB900 /* Login */,
 				8DAF171F25EB30C2001BB900 /* Reservation */,
-				8DAF172025EB30D0001BB900 /* Setting */,
+				8DAF175725EBDAA6001BB900 /* Settings */,
 				8DAF172125EB312B001BB900 /* SplashScreen.swift */,
 			);
 			path = Screens;
@@ -184,19 +186,20 @@
 			path = Reservation;
 			sourceTree = "<group>";
 		};
-		8DAF172025EB30D0001BB900 /* Setting */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Setting;
-			sourceTree = "<group>";
-		};
 		8DAF173225EB3E51001BB900 /* Debug */ = {
 			isa = PBXGroup;
 			children = (
 				8DAF173325EB3E71001BB900 /* AnyNavigationScreen.swift */,
 			);
 			path = Debug;
+			sourceTree = "<group>";
+		};
+		8DAF175725EBDAA6001BB900 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8DAF175825EBDAB9001BB900 /* LoginIdScreen.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DAF175925EBDAB9001BB900 /* LoginIdScreen.swift in Sources */,
 				8DAF173425EB3E71001BB900 /* AnyNavigationScreen.swift in Sources */,
 				8DAF174925EBB71D001BB900 /* RequestPasswordScreen.swift in Sources */,
 				8DAF174E25EBBA13001BB900 /* ResetPasswordScreen.swift in Sources */,
