@@ -54,7 +54,7 @@ struct AnyNavigationSceen: View {
     
     var homeSection: some View {
         Section(header: Text("Home")) {
-            NavigationLink(destination: SplashScreen().navigationBarHidden(true)) {
+            NavigationLink(destination: HomeScreen()) {
                 Text("Home")
             }
         }
