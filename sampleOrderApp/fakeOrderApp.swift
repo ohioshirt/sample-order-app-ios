@@ -1,6 +1,6 @@
 //
-//  fakecarshareApp.swift
-//  fakecarshare
+//  sampleOrderApp.swift
+//  sampleOrderApp
 //
 //  Created by shigeo on 2021/02/28.
 //
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct fakecarshareApp: App {
+struct sampleOrderAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AnyNavigationSceen()
         }
     }
 }

@@ -7,12 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8DAF16EE25EB307C001BB900 /* fakecarshareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF16ED25EB307C001BB900 /* fakecarshareApp.swift */; };
+		8DAF16EE25EB307C001BB900 /* fakeOrderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF16ED25EB307C001BB900 /* fakeOrderApp.swift */; };
 		8DAF16F025EB307C001BB900 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF16EF25EB307C001BB900 /* ContentView.swift */; };
 		8DAF16F225EB307D001BB900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DAF16F125EB307D001BB900 /* Assets.xcassets */; };
 		8DAF16F525EB307D001BB900 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DAF16F425EB307D001BB900 /* Preview Assets.xcassets */; };
-		8DAF170025EB307D001BB900 /* fakecarshareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF16FF25EB307D001BB900 /* fakecarshareTests.swift */; };
-		8DAF170B25EB307D001BB900 /* fakecarshareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF170A25EB307D001BB900 /* fakecarshareUITests.swift */; };
+		8DAF170025EB307D001BB900 /* sampleOrderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF16FF25EB307D001BB900 /* sampleOrderAppTests.swift */; };
+		8DAF170B25EB307D001BB900 /* sampleOrderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF170A25EB307D001BB900 /* sampleOrderAppUITests.swift */; };
+		8DAF172225EB312B001BB900 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF172125EB312B001BB900 /* SplashScreen.swift */; };
+		8DAF173425EB3E71001BB900 /* AnyNavigationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF173325EB3E71001BB900 /* AnyNavigationScreen.swift */; };
+		8DAF173F25EB62C5001BB900 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF173E25EB62C5001BB900 /* LoginScreen.swift */; };
+		8DAF174425EB6CFC001BB900 /* AuthSmsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF174325EB6CFC001BB900 /* AuthSmsScreen.swift */; };
+		8DAF174925EBB71D001BB900 /* RequestPasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF174825EBB71D001BB900 /* RequestPasswordScreen.swift */; };
+		8DAF174E25EBBA13001BB900 /* ResetPasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF174D25EBBA13001BB900 /* ResetPasswordScreen.swift */; };
+		8DAF175325EBC1AB001BB900 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF175225EBC1AB001BB900 /* HomeScreen.swift */; };
+		8DAF175925EBDAB9001BB900 /* LoginIdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF175825EBDAB9001BB900 /* LoginIdScreen.swift */; };
+		8DAF175E25EBDB39001BB900 /* ChangePasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF175D25EBDB39001BB900 /* ChangePasswordScreen.swift */; };
+		8DAF176325EBDB7C001BB900 /* AuthSmsForChangeLoginIdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF176225EBDB7C001BB900 /* AuthSmsForChangeLoginIdScreen.swift */; };
+		8DAF176825EBDBB0001BB900 /* AuthSmsForChangePasswordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF176725EBDBB0001BB900 /* AuthSmsForChangePasswordScreen.swift */; };
+		8DAF176D25EBDC05001BB900 /* SelectStartStationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF176C25EBDC05001BB900 /* SelectStartStationScreen.swift */; };
+		8DAF177225EBDC3A001BB900 /* SelectEndStationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF177125EBDC3A001BB900 /* SelectEndStationScreen.swift */; };
+		8DAF177725EBDC64001BB900 /* MapForStationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF177625EBDC64001BB900 /* MapForStationScreen.swift */; };
+		8DAF177C25EBDC84001BB900 /* StatiorSearchResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF177B25EBDC84001BB900 /* StatiorSearchResultScreen.swift */; };
+		8DAF178125EBDCA4001BB900 /* ConfirmReservationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF178025EBDCA4001BB900 /* ConfirmReservationScreen.swift */; };
+		8DAF178625EBDCC6001BB900 /* ChangeReservationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF178525EBDCC6001BB900 /* ChangeReservationScreen.swift */; };
+		8DAF178B25EBDCEA001BB900 /* ReservationListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF178A25EBDCEA001BB900 /* ReservationListScreen.swift */; };
+		8DAF179025EBDD0B001BB900 /* ReservationDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAF178F25EBDD0B001BB900 /* ReservationDetailScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,18 +52,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8DAF16EA25EB307C001BB900 /* fakecarshare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fakecarshare.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DAF16ED25EB307C001BB900 /* fakecarshareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fakecarshareApp.swift; sourceTree = "<group>"; };
+		8DAF16EA25EB307C001BB900 /* sampleOrderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleOrderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAF16ED25EB307C001BB900 /* fakeOrderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fakeOrderApp.swift; sourceTree = "<group>"; };
 		8DAF16EF25EB307C001BB900 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8DAF16F125EB307D001BB900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DAF16F425EB307D001BB900 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8DAF16F625EB307D001BB900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DAF16FB25EB307D001BB900 /* fakecarshareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fakecarshareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DAF16FF25EB307D001BB900 /* fakecarshareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fakecarshareTests.swift; sourceTree = "<group>"; };
+		8DAF16FB25EB307D001BB900 /* sampleOrderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleOrderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAF16FF25EB307D001BB900 /* sampleOrderAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleOrderAppTests.swift; sourceTree = "<group>"; };
 		8DAF170125EB307D001BB900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DAF170625EB307D001BB900 /* fakecarshareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fakecarshareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DAF170A25EB307D001BB900 /* fakecarshareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fakecarshareUITests.swift; sourceTree = "<group>"; };
+		8DAF170625EB307D001BB900 /* sampleOrderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleOrderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DAF170A25EB307D001BB900 /* sampleOrderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleOrderAppUITests.swift; sourceTree = "<group>"; };
 		8DAF170C25EB307D001BB900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DAF172125EB312B001BB900 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		8DAF173325EB3E71001BB900 /* AnyNavigationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyNavigationScreen.swift; sourceTree = "<group>"; };
+		8DAF173E25EB62C5001BB900 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		8DAF174325EB6CFC001BB900 /* AuthSmsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSmsScreen.swift; sourceTree = "<group>"; };
+		8DAF174825EBB71D001BB900 /* RequestPasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestPasswordScreen.swift; sourceTree = "<group>"; };
+		8DAF174D25EBBA13001BB900 /* ResetPasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordScreen.swift; sourceTree = "<group>"; };
+		8DAF175225EBC1AB001BB900 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		8DAF175825EBDAB9001BB900 /* LoginIdScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginIdScreen.swift; sourceTree = "<group>"; };
+		8DAF175D25EBDB39001BB900 /* ChangePasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordScreen.swift; sourceTree = "<group>"; };
+		8DAF176225EBDB7C001BB900 /* AuthSmsForChangeLoginIdScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSmsForChangeLoginIdScreen.swift; sourceTree = "<group>"; };
+		8DAF176725EBDBB0001BB900 /* AuthSmsForChangePasswordScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSmsForChangePasswordScreen.swift; sourceTree = "<group>"; };
+		8DAF176C25EBDC05001BB900 /* SelectStartStationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectStartStationScreen.swift; sourceTree = "<group>"; };
+		8DAF177125EBDC3A001BB900 /* SelectEndStationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectEndStationScreen.swift; sourceTree = "<group>"; };
+		8DAF177625EBDC64001BB900 /* MapForStationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapForStationScreen.swift; sourceTree = "<group>"; };
+		8DAF177B25EBDC84001BB900 /* StatiorSearchResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatiorSearchResultScreen.swift; sourceTree = "<group>"; };
+		8DAF178025EBDCA4001BB900 /* ConfirmReservationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmReservationScreen.swift; sourceTree = "<group>"; };
+		8DAF178525EBDCC6001BB900 /* ChangeReservationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeReservationScreen.swift; sourceTree = "<group>"; };
+		8DAF178A25EBDCEA001BB900 /* ReservationListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationListScreen.swift; sourceTree = "<group>"; };
+		8DAF178F25EBDD0B001BB900 /* ReservationDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDetailScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +113,9 @@
 		8DAF16E125EB307C001BB900 = {
 			isa = PBXGroup;
 			children = (
-				8DAF16EC25EB307C001BB900 /* fakecarshare */,
-				8DAF16FE25EB307D001BB900 /* fakecarshareTests */,
-				8DAF170925EB307D001BB900 /* fakecarshareUITests */,
+				8DAF16EC25EB307C001BB900 /* sampleOrderApp */,
+				8DAF16FE25EB307D001BB900 /* sampleOrderAppTests */,
+				8DAF170925EB307D001BB900 /* sampleOrderAppUITests */,
 				8DAF16EB25EB307C001BB900 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,23 +123,24 @@
 		8DAF16EB25EB307C001BB900 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8DAF16EA25EB307C001BB900 /* fakecarshare.app */,
-				8DAF16FB25EB307D001BB900 /* fakecarshareTests.xctest */,
-				8DAF170625EB307D001BB900 /* fakecarshareUITests.xctest */,
+				8DAF16EA25EB307C001BB900 /* sampleOrderApp.app */,
+				8DAF16FB25EB307D001BB900 /* sampleOrderAppTests.xctest */,
+				8DAF170625EB307D001BB900 /* sampleOrderAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8DAF16EC25EB307C001BB900 /* fakecarshare */ = {
+		8DAF16EC25EB307C001BB900 /* sampleOrderApp */ = {
 			isa = PBXGroup;
 			children = (
-				8DAF16ED25EB307C001BB900 /* fakecarshareApp.swift */,
+				8DAF171C25EB30A4001BB900 /* Screens */,
+				8DAF16ED25EB307C001BB900 /* fakeOrderApp.swift */,
 				8DAF16EF25EB307C001BB900 /* ContentView.swift */,
 				8DAF16F125EB307D001BB900 /* Assets.xcassets */,
 				8DAF16F625EB307D001BB900 /* Info.plist */,
 				8DAF16F325EB307D001BB900 /* Preview Content */,
 			);
-			path = fakecarshare;
+			path = sampleOrderApp;
 			sourceTree = "<group>";
 		};
 		8DAF16F325EB307D001BB900 /* Preview Content */ = {
@@ -112,30 +151,96 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8DAF16FE25EB307D001BB900 /* fakecarshareTests */ = {
+		8DAF16FE25EB307D001BB900 /* sampleOrderAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				8DAF16FF25EB307D001BB900 /* fakecarshareTests.swift */,
+				8DAF16FF25EB307D001BB900 /* sampleOrderAppTests.swift */,
 				8DAF170125EB307D001BB900 /* Info.plist */,
 			);
-			path = fakecarshareTests;
+			path = sampleOrderAppTests;
 			sourceTree = "<group>";
 		};
-		8DAF170925EB307D001BB900 /* fakecarshareUITests */ = {
+		8DAF170925EB307D001BB900 /* sampleOrderAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8DAF170A25EB307D001BB900 /* fakecarshareUITests.swift */,
+				8DAF170A25EB307D001BB900 /* sampleOrderAppUITests.swift */,
 				8DAF170C25EB307D001BB900 /* Info.plist */,
 			);
-			path = fakecarshareUITests;
+			path = sampleOrderAppUITests;
+			sourceTree = "<group>";
+		};
+		8DAF171C25EB30A4001BB900 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8DAF173225EB3E51001BB900 /* Debug */,
+				8DAF171E25EB30BC001BB900 /* Home */,
+				8DAF171D25EB30AB001BB900 /* Login */,
+				8DAF171F25EB30C2001BB900 /* Reservation */,
+				8DAF175725EBDAA6001BB900 /* Settings */,
+				8DAF172125EB312B001BB900 /* SplashScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8DAF171D25EB30AB001BB900 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8DAF173E25EB62C5001BB900 /* LoginScreen.swift */,
+				8DAF174325EB6CFC001BB900 /* AuthSmsScreen.swift */,
+				8DAF174825EBB71D001BB900 /* RequestPasswordScreen.swift */,
+				8DAF174D25EBBA13001BB900 /* ResetPasswordScreen.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8DAF171E25EB30BC001BB900 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8DAF175225EBC1AB001BB900 /* HomeScreen.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8DAF171F25EB30C2001BB900 /* Reservation */ = {
+			isa = PBXGroup;
+			children = (
+				8DAF178525EBDCC6001BB900 /* ChangeReservationScreen.swift */,
+				8DAF178025EBDCA4001BB900 /* ConfirmReservationScreen.swift */,
+				8DAF177625EBDC64001BB900 /* MapForStationScreen.swift */,
+				8DAF178F25EBDD0B001BB900 /* ReservationDetailScreen.swift */,
+				8DAF178A25EBDCEA001BB900 /* ReservationListScreen.swift */,
+				8DAF177125EBDC3A001BB900 /* SelectEndStationScreen.swift */,
+				8DAF176C25EBDC05001BB900 /* SelectStartStationScreen.swift */,
+				8DAF177B25EBDC84001BB900 /* StatiorSearchResultScreen.swift */,
+			);
+			path = Reservation;
+			sourceTree = "<group>";
+		};
+		8DAF173225EB3E51001BB900 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				8DAF173325EB3E71001BB900 /* AnyNavigationScreen.swift */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		8DAF175725EBDAA6001BB900 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8DAF176225EBDB7C001BB900 /* AuthSmsForChangeLoginIdScreen.swift */,
+				8DAF176725EBDBB0001BB900 /* AuthSmsForChangePasswordScreen.swift */,
+				8DAF175D25EBDB39001BB900 /* ChangePasswordScreen.swift */,
+				8DAF175825EBDAB9001BB900 /* LoginIdScreen.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8DAF16E925EB307C001BB900 /* fakecarshare */ = {
+		8DAF16E925EB307C001BB900 /* sampleOrderApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DAF170F25EB307D001BB900 /* Build configuration list for PBXNativeTarget "fakecarshare" */;
+			buildConfigurationList = 8DAF170F25EB307D001BB900 /* Build configuration list for PBXNativeTarget "sampleOrderApp" */;
 			buildPhases = (
 				8DAF16E625EB307C001BB900 /* Sources */,
 				8DAF16E725EB307C001BB900 /* Frameworks */,
@@ -145,14 +250,14 @@
 			);
 			dependencies = (
 			);
-			name = fakecarshare;
+			name = sampleOrderApp;
 			productName = fakecarshare;
-			productReference = 8DAF16EA25EB307C001BB900 /* fakecarshare.app */;
+			productReference = 8DAF16EA25EB307C001BB900 /* sampleOrderApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8DAF16FA25EB307D001BB900 /* fakecarshareTests */ = {
+		8DAF16FA25EB307D001BB900 /* sampleOrderAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DAF171225EB307D001BB900 /* Build configuration list for PBXNativeTarget "fakecarshareTests" */;
+			buildConfigurationList = 8DAF171225EB307D001BB900 /* Build configuration list for PBXNativeTarget "sampleOrderAppTests" */;
 			buildPhases = (
 				8DAF16F725EB307D001BB900 /* Sources */,
 				8DAF16F825EB307D001BB900 /* Frameworks */,
@@ -163,14 +268,14 @@
 			dependencies = (
 				8DAF16FD25EB307D001BB900 /* PBXTargetDependency */,
 			);
-			name = fakecarshareTests;
+			name = sampleOrderAppTests;
 			productName = fakecarshareTests;
-			productReference = 8DAF16FB25EB307D001BB900 /* fakecarshareTests.xctest */;
+			productReference = 8DAF16FB25EB307D001BB900 /* sampleOrderAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8DAF170525EB307D001BB900 /* fakecarshareUITests */ = {
+		8DAF170525EB307D001BB900 /* sampleOrderAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DAF171525EB307D001BB900 /* Build configuration list for PBXNativeTarget "fakecarshareUITests" */;
+			buildConfigurationList = 8DAF171525EB307D001BB900 /* Build configuration list for PBXNativeTarget "sampleOrderAppUITests" */;
 			buildPhases = (
 				8DAF170225EB307D001BB900 /* Sources */,
 				8DAF170325EB307D001BB900 /* Frameworks */,
@@ -181,9 +286,9 @@
 			dependencies = (
 				8DAF170825EB307D001BB900 /* PBXTargetDependency */,
 			);
-			name = fakecarshareUITests;
+			name = sampleOrderAppUITests;
 			productName = fakecarshareUITests;
-			productReference = 8DAF170625EB307D001BB900 /* fakecarshareUITests.xctest */;
+			productReference = 8DAF170625EB307D001BB900 /* sampleOrderAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +313,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8DAF16E525EB307C001BB900 /* Build configuration list for PBXProject "fakecarshare" */;
+			buildConfigurationList = 8DAF16E525EB307C001BB900 /* Build configuration list for PBXProject "sampleOrderApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,9 +326,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8DAF16E925EB307C001BB900 /* fakecarshare */,
-				8DAF16FA25EB307D001BB900 /* fakecarshareTests */,
-				8DAF170525EB307D001BB900 /* fakecarshareUITests */,
+				8DAF16E925EB307C001BB900 /* sampleOrderApp */,
+				8DAF16FA25EB307D001BB900 /* sampleOrderAppTests */,
+				8DAF170525EB307D001BB900 /* sampleOrderAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,8 +364,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DAF179025EBDD0B001BB900 /* ReservationDetailScreen.swift in Sources */,
+				8DAF175925EBDAB9001BB900 /* LoginIdScreen.swift in Sources */,
+				8DAF176825EBDBB0001BB900 /* AuthSmsForChangePasswordScreen.swift in Sources */,
+				8DAF173425EB3E71001BB900 /* AnyNavigationScreen.swift in Sources */,
+				8DAF178125EBDCA4001BB900 /* ConfirmReservationScreen.swift in Sources */,
+				8DAF174925EBB71D001BB900 /* RequestPasswordScreen.swift in Sources */,
+				8DAF174E25EBBA13001BB900 /* ResetPasswordScreen.swift in Sources */,
+				8DAF177225EBDC3A001BB900 /* SelectEndStationScreen.swift in Sources */,
+				8DAF178625EBDCC6001BB900 /* ChangeReservationScreen.swift in Sources */,
+				8DAF172225EB312B001BB900 /* SplashScreen.swift in Sources */,
 				8DAF16F025EB307C001BB900 /* ContentView.swift in Sources */,
-				8DAF16EE25EB307C001BB900 /* fakecarshareApp.swift in Sources */,
+				8DAF177C25EBDC84001BB900 /* StatiorSearchResultScreen.swift in Sources */,
+				8DAF175325EBC1AB001BB900 /* HomeScreen.swift in Sources */,
+				8DAF16EE25EB307C001BB900 /* fakeOrderApp.swift in Sources */,
+				8DAF176D25EBDC05001BB900 /* SelectStartStationScreen.swift in Sources */,
+				8DAF177725EBDC64001BB900 /* MapForStationScreen.swift in Sources */,
+				8DAF173F25EB62C5001BB900 /* LoginScreen.swift in Sources */,
+				8DAF178B25EBDCEA001BB900 /* ReservationListScreen.swift in Sources */,
+				8DAF175E25EBDB39001BB900 /* ChangePasswordScreen.swift in Sources */,
+				8DAF176325EBDB7C001BB900 /* AuthSmsForChangeLoginIdScreen.swift in Sources */,
+				8DAF174425EB6CFC001BB900 /* AuthSmsScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +392,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DAF170025EB307D001BB900 /* fakecarshareTests.swift in Sources */,
+				8DAF170025EB307D001BB900 /* sampleOrderAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DAF170B25EB307D001BB900 /* fakecarshareUITests.swift in Sources */,
+				8DAF170B25EB307D001BB900 /* sampleOrderAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +409,12 @@
 /* Begin PBXTargetDependency section */
 		8DAF16FD25EB307D001BB900 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8DAF16E925EB307C001BB900 /* fakecarshare */;
+			target = 8DAF16E925EB307C001BB900 /* sampleOrderApp */;
 			targetProxy = 8DAF16FC25EB307D001BB900 /* PBXContainerItemProxy */;
 		};
 		8DAF170825EB307D001BB900 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8DAF16E925EB307C001BB900 /* fakecarshare */;
+			target = 8DAF16E925EB307C001BB900 /* sampleOrderApp */;
 			targetProxy = 8DAF170725EB307D001BB900 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -347,7 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -402,7 +526,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -418,15 +542,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"fakecarshare/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"sampleOrderApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = fakecarshare/Info.plist;
+				INFOPLIST_FILE = sampleOrderApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.fakecarshare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sample.orderapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -439,15 +563,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"fakecarshare/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"sampleOrderApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = fakecarshare/Info.plist;
+				INFOPLIST_FILE = sampleOrderApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.fakecarshare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sample.orderapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -458,20 +582,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = fakecarshareTests/Info.plist;
+				INFOPLIST_FILE = sampleOrderAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.fakecarshareTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleorderappTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fakecarshare.app/fakecarshare";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleOrderApp.app/sampleOrderApp";
 			};
 			name = Debug;
 		};
@@ -479,20 +602,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = fakecarshareTests/Info.plist;
+				INFOPLIST_FILE = sampleOrderAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.fakecarshareTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleorderappTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fakecarshare.app/fakecarshare";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleOrderApp.app/sampleOrderApp";
 			};
 			name = Release;
 		};
@@ -501,17 +623,18 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = fakecarshareUITests/Info.plist;
+				INFOPLIST_FILE = sampleOrderAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.fakecarshareUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleorderappUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = fakecarshare;
+				TEST_TARGET_NAME = sampleOrderApp;
 			};
 			name = Debug;
 		};
@@ -520,24 +643,25 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = fakecarshareUITests/Info.plist;
+				INFOPLIST_FILE = sampleOrderAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.fakecarshareUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleorderappUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = fakecarshare;
+				TEST_TARGET_NAME = sampleOrderApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8DAF16E525EB307C001BB900 /* Build configuration list for PBXProject "fakecarshare" */ = {
+		8DAF16E525EB307C001BB900 /* Build configuration list for PBXProject "sampleOrderApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DAF170D25EB307D001BB900 /* Debug */,
@@ -546,7 +670,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DAF170F25EB307D001BB900 /* Build configuration list for PBXNativeTarget "fakecarshare" */ = {
+		8DAF170F25EB307D001BB900 /* Build configuration list for PBXNativeTarget "sampleOrderApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DAF171025EB307D001BB900 /* Debug */,
@@ -555,7 +679,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DAF171225EB307D001BB900 /* Build configuration list for PBXNativeTarget "fakecarshareTests" */ = {
+		8DAF171225EB307D001BB900 /* Build configuration list for PBXNativeTarget "sampleOrderAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DAF171325EB307D001BB900 /* Debug */,
@@ -564,7 +688,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DAF171525EB307D001BB900 /* Build configuration list for PBXNativeTarget "fakecarshareUITests" */ = {
+		8DAF171525EB307D001BB900 /* Build configuration list for PBXNativeTarget "sampleOrderAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DAF171625EB307D001BB900 /* Debug */,
